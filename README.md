@@ -1,53 +1,121 @@
 # Laravel User Management System
 
-A Laravel admin dashboard for managing users with authentication, role-based access control, and full CRUD functionality.
+A clean and modern Laravel admin dashboard for managing users with authentication, role-based access control, and full CRUD functionality.
 
-## Features
+---
 
-- User authentication with Laravel Breeze
-- Admin dashboard with user statistics
-- User management CRUD
-- Role management (admin, user)
-- Protected admin routes using middleware
-- Form validation
-- MySQL database integration
-- Blade templating
+## 📸 Screenshots
 
-## Tech Stack
+### Login
 
-- Laravel
-- PHP
-- Blade
-- MySQL
-- Laravel Breeze
-- Eloquent ORM
+![Login](screenshots/login.png)
 
-## Demo Pages
+### Admin Dashboard
 
-- /login
-- /admin
-- /admin/users
+![Dashboard](screenshots/dashboard.png)
 
-## Admin Login
+### User Management
 
-Email: admin@example.com  
+![Users](screenshots/list.png)
+
+### Create User
+
+![Create User](screenshots/create.png)
+
+---
+
+## 🚀 Features
+
+* Authentication with Laravel Breeze
+* Role-based access control (Admin / User)
+* Admin dashboard with statistics
+* Full CRUD user management
+* Protected routes via middleware
+* Clean UI with Tailwind CSS
+* Form validation
+* MySQL database integration
+
+---
+
+## 🛠 Tech Stack
+
+* Laravel
+* PHP 8+
+* Blade
+* Tailwind CSS
+* MySQL
+* Laravel Breeze
+* Eloquent ORM
+* Vite
+
+---
+
+## 🔐 Demo Access
+
+**Admin Account**
+
+Email: [admin@example.com](mailto:admin@example.com)
 Password: password
 
-## Installation
+---
 
-    git clone <your-repository-url>
-    cd user-management-system
-    composer install
-    npm install
-    cp .env.example .env
-    php artisan key:generate
+## 📂 Demo Pages
 
-Set up your database in .env, then run:
+* `/login`
+* `/dashboard` (User)
+* `/admin` (Admin)
+* `/admin/users`
 
-    php artisan migrate --seed
-    npm run build
-    php artisan serve
+---
 
-## Project Purpose
+## ⚙️ Installation
 
-This project demonstrates Laravel backend development skills including authentication, admin panels, CRUD operations, middleware, and database integration.
+```bash
+git clone <your-repository-url>
+cd user-management-system
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+```
+
+Configure your database in `.env`, then run:
+
+```bash
+php artisan migrate --seed
+npm run build
+php artisan serve
+```
+
+---
+
+## 🎯 Project Purpose
+
+This project demonstrates full-stack Laravel development skills, including:
+
+* Authentication systems
+* Role-based authorization
+* Admin panel architecture
+* CRUD operations
+* Middleware and route protection
+* Clean UI design with Tailwind
+* Database design and Eloquent ORM
+
+---
+
+## 💡 Notes
+
+* Admin routes are protected via middleware
+* Users cannot access admin pages (403 protection)
+* Clean separation between admin and user dashboards
+
+---
+
+## 📌 Future Improvements
+
+* Pagination & search for users
+* API version (REST / Sanctum)
+* Unit & feature tests
+* Dark mode UI
+
+---
