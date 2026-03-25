@@ -104,11 +104,13 @@ This project demonstrates full-stack Laravel development skills, including:
 
 ---
 
-## 📌 Future Improvements
+## Future Enhancements
 
-* Pagination & search for users
-* API version (REST / Sanctum)
-* Unit & feature tests
-* Dark mode UI
+This project is designed as a simple and extendable admin system. Possible future improvements include:
+
+- Pagination & search  
+- API layer (Laravel Sanctum)  
+- Automated testing  
+- Extended role & permission system
 
 ---
