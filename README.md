@@ -1,6 +1,6 @@
-# Laravel User Management System
+## Laravel User Management System
 
-A clean and modern Laravel admin dashboard for managing users with authentication, role-based access control, and full CRUD functionality.
+A simple admin dashboard built with Laravel, featuring authentication, role-based access control, and CRUD functionality for managing users.
 
 ---
 
@@ -71,19 +71,12 @@ Password: password
 ## ⚙️ Installation
 
 ```bash
-git clone <your-repository-url>
-cd user-management-system
+git clone https://github.com/jilljungbluth-dev/laravel-user-management-system.git
+cd laravel-user-management-system
 composer install
-npm install
 cp .env.example .env
 php artisan key:generate
-```
-
-Configure your database in `.env`, then run:
-
-```bash
-php artisan migrate --seed
-npm run build
+php artisan migrate
 php artisan serve
 ```
 
